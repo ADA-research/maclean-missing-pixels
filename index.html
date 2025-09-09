@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Mitigating Representation Bias Caused by Missing Pixels in Methane Plume Detection.">
+    content="Mitigating Representation Bias Caused by Missing Pixels in Methane Plume Detection.">
   <meta name="keywords" content="MACLEAN, methane plume detection, ECML-PKDD, ML4EO, representation bias">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mitigating representation bias caused by missing pixels in methane plume detection.</title>
@@ -22,15 +23,13 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
@@ -40,25 +39,26 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
 </head>
+
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://juliawasala.nl">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://juliawasala.nl">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
 
-      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <!-- <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           More Research
         </a>
@@ -68,52 +68,55 @@
           </a>
         </div>
       </div> -->
+      </div>
+
     </div>
-
-  </div>
-</nav>
+  </nav>
 
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Mitigating Representation Bias Caused by Missing Pixels in Methane Plume Detection.</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://juliawasala.nl">Julia Wąsala</a><sup>1,2</sup>,</span>
-            <span class="author-block">
-             Bram Maasakkers<sup>2</sup>,</span>
-            <span class="author-block">
-              Ilse Aben<sup>2</sup>,
-            </span>
-            <span class="author-block">
-              Rochelle Schneider<sup>3</sup>,
-            </span>
-            <span class="author-block">
-              Holger Hoos<sup>4</sup>,
-            </span>
-            <span class="author-block">
-              Mitra Baratchi<sup>1</sup>,
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Leiden Institute of Advanced Computer Science (LIACS),</span>
-            <span class="author-block"><sup>2</sup>SRON Space Research Organisation Netherlands,</span>
-            <span class="author-block"><sup>3</sup>Phi-lab, ESA-ESRIN,</span>
-            <span class="author-block"><sup>4</sup>Chair of AI Methodology, RWTH Aachen</span>
-          </div>
-
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
           <div class="column has-text-centered">
-            Accepted at the <a href="https://sites.google.com/view/maclean25" target="_blank" rel="noopener noreferrer">Workshop on Machine Learning for Earth Observation</a> in conjunction with the <a href="https://ecmlpkdd.org/2025/" target="_blank" rel="noopener noreferrer">ECML/PKDD 2025</a>
-          </div>
+            <h1 class="title is-1 publication-title">Mitigating Representation Bias Caused by Missing Pixels in Methane
+              Plume Detection.</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://juliawasala.nl">Julia Wąsala</a><sup>1,2</sup>,</span>
+              <span class="author-block">
+                Joannes D. Maasakkers<sup>2</sup>,</span>
+              <span class="author-block">
+                Ilse Aben<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                Rochelle Schneider<sup>3</sup>,
+              </span>
+              <span class="author-block">
+                Holger Hoos<sup>4</sup>,
+              </span>
+              <span class="author-block">
+                Mitra Baratchi<sup>1</sup>,
+              </span>
+            </div>
 
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <!-- <span class="link-block">
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Leiden Institute of Advanced Computer Science (LIACS),</span>
+              <span class="author-block"><sup>2</sup>SRON Space Research Organisation Netherlands,</span>
+              <span class="author-block"><sup>3</sup>Phi-lab, ESA-ESRIN,</span>
+              <span class="author-block"><sup>4</sup>Chair of AI Methodology, RWTH Aachen</span>
+            </div>
+
+            <div class="column has-text-centered">
+              Accepted at the <a href="https://sites.google.com/view/maclean25" target="_blank"
+                rel="noopener noreferrer">Workshop on Machine Learning for Earth Observation</a> in conjunction with the
+              <a href="https://ecmlpkdd.org/2025/" target="_blank" rel="noopener noreferrer">ECML/PKDD 2025</a>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
                 <a href="https://arxiv.org/pdf/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -121,8 +124,8 @@
                   </span>
                   <span>Paper</span>
                 </a> -->
-              </span>
-              <!-- <span class="link-block">
+                </span>
+                <!-- <span class="link-block">
                 <a href="https://arxiv.org/abs/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -131,103 +134,107 @@
                   <span>arXiv</span>
                 </a>
               </span> -->
-              <!-- Video Link. -->
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/JuliaWasala/maclean-fair-ml-for-missing-pixels"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
+                <!-- Video Link. -->
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/JuliaWasala/maclean-fair-ml-for-missing-pixels"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
                       <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
+                    </span>
+                    <span>Code</span>
                   </a>
-              </span>
+                </span>
+
+              </div>
 
             </div>
-
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/teaser.mp4"
                 type="video/mp4">
       </video> -->
-      <h2 class="subtitle has-text-centered">
-        Missing not at random (MNAR) data, such as missing pixels in satellite image data products, can lead to representation bias in deep learning. We mitigate this bias on two levels: on the image-level by filling missing pixels, and on a dataset-level by removing the association between missing pixels and the target variable.
-      </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            To come. 
-          </p>
-        </div>
+        <h2 class="subtitle has-text-centered">
+          Missing not at random (MNAR) data, such as missing pixels in satellite image data products, can lead to
+          representation bias in deep learning. We mitigate this bias on two levels: on the image-level by filling
+          missing pixels, and on a dataset-level by removing the association between missing pixels and the target
+          variable.
+        </h2>
       </div>
     </div>
-    <!--/ Abstract. -->
-    
-  </div>
-</section>
+  </section>
 
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{WasEtAl2025,
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              To come.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+    </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{WasEtAl2025,
   author    = {Wąsala, J. and Maasakkers, J.D. and Aben, E.E.A. and Schneider, R. and Hoos, H.H. and Baratchi, M.},
   title     = {Mitigating Representation Bias Caused by Missing Pixels in Methane Plume Detection},
   maintitle  = {European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD)},
   booktitle = {Workshop on Machine Learning for Earth Observation}
   year      = {2025},
 }</code></pre>
-  </div>
-</section>
+    </div>
+  </section>
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <!-- <a class="icon-link"
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <!-- <a class="icon-link"
          href="./static/videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a> -->
-      <a class="icon-link" href="https://github.com/JuliaWasala" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This is borrowed from the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of the Nerfies website.
-          </p>
+        <a class="icon-link" href="https://github.com/JuliaWasala" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              This is borrowed from the <a href="https://github.com/nerfies/nerfies.github.io">source code</a> of the
+              Nerfies website.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
