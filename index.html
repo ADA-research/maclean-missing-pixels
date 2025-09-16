@@ -181,7 +181,13 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              To come.
+              Most satellite images have systematically missing pixels (i.e., missing data not at random (MNAR)) due to factors such as clouds. 
+If not addressed, these missing pixels can lead to representation bias in automated feature extraction models.
+In this work, we show that spurious association between the label and the number of missing values in methane plume detection can cause the model to associate the coverage (i.e., the percentage of valid pixels in an image) with the label, subsequently under-detecting plumes in low-coverage images. 
+We evaluate multiple imputation approaches to remove the dependence between the coverage and a label. 
+Additionally, we propose a weighted resampling scheme during training that removes the association between the label and the coverage by enforcing class balance in each coverage bin. 
+Our results show that both resampling and imputation can significantly reduce the representation bias without hurting balanced accuracy, precision, or recall.
+Finally, we evaluate the capability of the debiased models using these techniques in an operational scenario and demonstrate that the debiased models have a higher chance of detecting plumes in low-coverage images. 
             </p>
           </div>
         </div>
